@@ -1,0 +1,13 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/moderate
+
+logging:
+  level:
+    '[org.springframework]': INFO
+
+chatGpt:
+  url: https://api.openai.com/v1
+  token: {add-token-here}
